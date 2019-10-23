@@ -1,7 +1,7 @@
 from flask import jsonify,request 
 from db.db import cnx
 
-class persona ():
+class Persona ():
     global cur
     cur = cnx.cursor()
     
