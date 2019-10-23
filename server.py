@@ -13,5 +13,3 @@ def getALL():
 def postONE():
     body = request.json
     return (persona.create(body))
-
-app.run(port=5000,debug=True)
